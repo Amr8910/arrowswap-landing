@@ -8,21 +8,23 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f8f9fa;
             color: #333;
             text-align: center;
         }
         .container {
-            max-width: 600px;
+            max-width: 90%;
+            width: 500px;
             margin: 50px auto;
             background: #fff;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         h1 {
-            font-size: 24px;
-            margin-bottom: 10px;
+            font-size: 26px;
+            margin-bottom: 15px;
+            color: #007bff;
         }
         p {
             font-size: 18px;
@@ -30,30 +32,27 @@
         }
         .buttons {
             display: flex;
-            flex-direction: column;
+            flex-wrap: wrap;
             gap: 10px;
+            justify-content: center;
         }
         .buttons a {
-            display: block;
+            flex: 1 1 45%;
             text-decoration: none;
             background: #007bff;
             color: white;
-            padding: 10px;
+            padding: 12px;
             border-radius: 5px;
             font-size: 16px;
             transition: background 0.3s;
+            text-align: center;
         }
         .buttons a:hover {
             background: #0056b3;
         }
-        @media (min-width: 600px) {
-            .buttons {
-                flex-direction: row;
-                justify-content: center;
-            }
+        @media (max-width: 500px) {
             .buttons a {
-                flex: 1;
-                margin: 0 5px;
+                flex: 1 1 100%;
             }
         }
     </style>
@@ -61,12 +60,12 @@
 <body>
     <div class="container">
         <h1>ArrowSwap.com is for Sale!</h1>
-        <p>This premium domain is available for purchase. you can buy now through one of the platforms below.</p>
+        <p>This premium domain is available for purchase. You can buy now through one of the platforms below.</p>
         <div class="buttons">
             <a href="https://www.namecheap.com/domains/registration/results/?domain=arrowswap.com" target="_blank">Buy on NameCheap</a>
             <a href="https://sedo.com/search/?keyword=Arrowswap" target="_blank">Buy on Sedo</a>
             <a href="https://www.afternic.com/domain/arrowswap.com" target="_blank">Buy on Afternic</a>
-            <a href="https://www.godaddy.com/en/domainsearch/find?domainToCheck=Arrowswap.com" target="_blank">Buy on Godaddy</a>
+            <a href="https://www.godaddy.com/en/domainsearch/find?domainToCheck=Arrowswap.com" target="_blank">Buy on GoDaddy</a>
         </div>
     </div>
 </body>
